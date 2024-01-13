@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTeamPlayers",
+				"outputs": [
+					{
+						"internalType": "address[16]",
+						"name": "",
+						"type": "address[16]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "playerId",
+						"type": "uint256"
+					}
+				],
+				"name": "selectJerseyNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"team.sol": "Team"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"team.sol": {
+			"keccak256": "0x2f7b8458eee90f896577fd910ed044241469424c51ed03021270d8d0a6291b42",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fb8d3e9c63b0c8fe7e892b4cf11a20899b5294df6e113f2eebcfc10e03e20e6c",
+				"dweb:/ipfs/QmZdhU4bztADS3QmKyBnB56dgnA2wP6mffXdg2zLpHi115"
+			]
+		}
+	},
+	"version": 1
+}
